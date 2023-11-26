@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void atbegin();
+// void atbegin();
 
 int main(int argc, char const *argv[])
 {
@@ -37,11 +37,3 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
-// void atbegin()
-// {
-//     struct node  *head, *newnode, *ele;
-//     newnode = (struct node *)malloc(sizeof(struct node));
-//     printf("Enter data want to insert : ");
-//     scanf("%d",&newnode->data);
-//     newnode->next;
-// }
